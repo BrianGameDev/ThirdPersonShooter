@@ -44,7 +44,7 @@ public class Inventory : Singleton<Inventory>
 		return false;
 	}
 
-	public void DisplayInventory()
+	public void LogInventory()
 	{
 		Debug.Log("Inventory:");
 		foreach (var i in Items)

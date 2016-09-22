@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+public class Inventory : Singleton<Inventory>
 {
 	public Dictionary<string, int> Items = new Dictionary<string, int>();
 
